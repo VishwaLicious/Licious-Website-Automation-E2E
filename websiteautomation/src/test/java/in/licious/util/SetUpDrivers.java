@@ -15,11 +15,13 @@ import org.openqa.selenium.safari.SafariDriver;
 public class SetUpDrivers {
 	private  WebDriver driver;
 	public  WebDriver launchFirefoxDriver(String url){
+		System.setProperty("webdriver.gecko.driver",System.getProperty("user.dir")+"\\BrowserDrivers\\geckodriver.exe");
 		driver=new FirefoxDriver();
 		driver.get(url);
 		return driver;
 	}
 	public  WebDriver launchChromeDriver(String url){
+		System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"\\BrowserDrivers\\chromedriver.exe");
 		ChromeOptions options=new ChromeOptions();
 		options.addArguments("start-maximized");
 		driver=new ChromeDriver(options);
@@ -27,6 +29,7 @@ public class SetUpDrivers {
 		return driver;
 	}
 	public  WebDriver launchInternetExplorerDriver(String url){
+		System.setProperty("webdriver.ie.driver",System.getProperty("user.dir")+"\\BrowserDrivers\\IEDriverServer.exe");
 		driver=new InternetExplorerDriver();
 		driver.get(url);
 		return driver;		

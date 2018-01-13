@@ -139,3 +139,51 @@
 2018-01-10 22:59:46,090 - [in.licious.test.ValidLoginTest] - INFO - 5 
 2018-01-10 23:00:15,464 - [in.licious.test.ValidLoginTest] - INFO - chrome is launched 
 2018-01-10 23:00:23,516 - [in.licious.test.ValidLoginTest] - INFO - chrome is closed 
+2018-01-13 18:26:30,510 - [in.licious.test.ValidLoginTest] - INFO - framework is initialised 
+2018-01-13 18:26:30,517 - [in.licious.test.ValidLoginTest] - INFO - chrome 
+2018-01-13 18:26:30,518 - [in.licious.test.ValidLoginTest] - INFO - https://www.licious.in 
+2018-01-13 18:26:30,518 - [in.licious.test.ValidLoginTest] - INFO - demo 
+2018-01-13 18:26:30,520 - [in.licious.test.ValidLoginTest] - INFO - optdemo 
+2018-01-13 18:26:30,520 - [in.licious.test.ValidLoginTest] - INFO - 5 
+2018-01-13 18:30:05,304 - [in.licious.test.ValidLoginTest] - INFO - framework is initialised 
+2018-01-13 18:30:05,311 - [in.licious.test.ValidLoginTest] - INFO - chrome 
+2018-01-13 18:30:05,312 - [in.licious.test.ValidLoginTest] - INFO - https://www.licious.in 
+2018-01-13 18:30:05,312 - [in.licious.test.ValidLoginTest] - INFO - demo 
+2018-01-13 18:30:05,313 - [in.licious.test.ValidLoginTest] - INFO - optdemo 
+2018-01-13 18:30:05,313 - [in.licious.test.ValidLoginTest] - INFO - 5 
+2018-01-13 19:14:35,634 - [in.licious.test.ValidLoginTest] - INFO - framework is initialised 
+2018-01-13 19:14:35,668 - [in.licious.test.ValidLoginTest] - INFO - chrome 
+2018-01-13 19:14:35,668 - [in.licious.test.ValidLoginTest] - INFO - https://www.licious.in 
+2018-01-13 19:14:35,669 - [in.licious.test.ValidLoginTest] - INFO - demo 
+2018-01-13 19:14:35,670 - [in.licious.test.ValidLoginTest] - INFO - optdemo 
+2018-01-13 19:14:35,670 - [in.licious.test.ValidLoginTest] - INFO - 5 
+2018-01-13 19:14:51,631 - [in.licious.test.ValidLoginTest] - INFO - chrome is launched 
+2018-01-13 19:14:59,877 - [in.licious.test.ValidLoginTest] - INFO - chrome is closed 
+2018-01-13 21:11:38,448 - [in.licious.test.ValidLoginTest] - INFO - framework is initialised 
+2018-01-13 21:11:38,450 - [in.licious.test.ValidLoginTest] - INFO - framework is initialised 
+2018-01-13 21:11:38,513 - [in.licious.test.ValidLoginTest] - INFO - firefox 
+2018-01-13 21:11:38,514 - [in.licious.test.ValidLoginTest] - INFO - https://www.licious.in 
+2018-01-13 21:11:38,515 - [in.licious.test.ValidLoginTest] - INFO -  
+2018-01-13 21:11:38,516 - [in.licious.test.ValidLoginTest] - INFO -  
+2018-01-13 21:11:38,516 - [in.licious.test.ValidLoginTest] - INFO - 5 
+2018-01-13 21:11:38,534 - [in.licious.test.ValidLoginTest] - INFO - firefox 
+2018-01-13 21:11:38,616 - [in.licious.test.ValidLoginTest] - INFO - https://www.licious.in 
+2018-01-13 21:11:38,617 - [in.licious.test.ValidLoginTest] - INFO -  
+2018-01-13 21:11:38,618 - [in.licious.test.ValidLoginTest] - INFO -  
+2018-01-13 21:11:38,620 - [in.licious.test.ValidLoginTest] - INFO - 5 
+2018-01-13 21:13:54,450 - [in.licious.test.ValidLoginTest] - INFO - firefox is launched 
+2018-01-13 21:13:54,749 - [in.licious.test.ValidLoginTest] - INFO - firefox is launched 
+2018-01-13 21:14:47,895 - [in.licious.test.ValidLoginTest] - INFO - framework is initialised 
+2018-01-13 21:14:47,922 - [in.licious.test.ValidLoginTest] - INFO - firefox 
+2018-01-13 21:14:47,923 - [in.licious.test.ValidLoginTest] - INFO - https://www.licious.in 
+2018-01-13 21:14:47,924 - [in.licious.test.ValidLoginTest] - INFO -  
+2018-01-13 21:14:47,927 - [in.licious.test.ValidLoginTest] - INFO -  
+2018-01-13 21:14:47,928 - [in.licious.test.ValidLoginTest] - INFO - 5 
+2018-01-13 21:15:16,083 - [in.licious.test.ValidLoginTest] - INFO - firefox is launched 
+2018-01-13 21:17:01,119 - [in.licious.test.ValidLoginTest] - INFO - framework is initialised 
+2018-01-13 21:17:01,137 - [in.licious.test.ValidLoginTest] - INFO - ie 
+2018-01-13 21:17:01,138 - [in.licious.test.ValidLoginTest] - INFO - https://www.licious.in 
+2018-01-13 21:17:01,138 - [in.licious.test.ValidLoginTest] - INFO -  
+2018-01-13 21:17:01,139 - [in.licious.test.ValidLoginTest] - INFO -  
+2018-01-13 21:17:01,139 - [in.licious.test.ValidLoginTest] - INFO - 5 
+2018-01-13 21:18:38,947 - [in.licious.test.ValidLoginTest] - INFO - ie is launched 
