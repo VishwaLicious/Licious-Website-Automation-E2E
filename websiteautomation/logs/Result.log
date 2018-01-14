@@ -187,3 +187,48 @@
 2018-01-13 21:17:01,139 - [in.licious.test.ValidLoginTest] - INFO -  
 2018-01-13 21:17:01,139 - [in.licious.test.ValidLoginTest] - INFO - 5 
 2018-01-13 21:18:38,947 - [in.licious.test.ValidLoginTest] - INFO - ie is launched 
+2018-01-14 16:28:19,413 - [in.licious.test.ValidLoginTest] - INFO - framework is initialised 
+2018-01-14 16:28:19,421 - [in.licious.test.ValidLoginTest] - INFO - ie 
+2018-01-14 16:28:19,421 - [in.licious.test.ValidLoginTest] - INFO - https://www.licious.in 
+2018-01-14 16:28:19,422 - [in.licious.test.ValidLoginTest] - INFO -  
+2018-01-14 16:28:19,422 - [in.licious.test.ValidLoginTest] - INFO -  
+2018-01-14 16:28:19,423 - [in.licious.test.ValidLoginTest] - INFO - 5 
+2018-01-14 16:28:43,088 - [in.licious.test.ValidLoginTest] - INFO - ie is launched 
+2018-01-14 16:30:54,351 - [in.licious.test.ValidLoginTest] - INFO - framework is initialised 
+2018-01-14 16:30:54,358 - [in.licious.test.ValidLoginTest] - INFO - ie 
+2018-01-14 16:30:54,359 - [in.licious.test.ValidLoginTest] - INFO - https://www.licious.in 
+2018-01-14 16:30:54,359 - [in.licious.test.ValidLoginTest] - INFO -  
+2018-01-14 16:30:54,360 - [in.licious.test.ValidLoginTest] - INFO -  
+2018-01-14 16:30:54,360 - [in.licious.test.ValidLoginTest] - INFO - 5 
+2018-01-14 16:31:23,536 - [in.licious.test.ValidLoginTest] - INFO - ie is launched 
+2018-01-14 16:33:40,464 - [in.licious.test.ValidLoginTest] - INFO - framework is initialised 
+2018-01-14 16:33:40,476 - [in.licious.test.ValidLoginTest] - INFO - chrome 
+2018-01-14 16:33:40,477 - [in.licious.test.ValidLoginTest] - INFO - https://www.licious.in 
+2018-01-14 16:33:40,477 - [in.licious.test.ValidLoginTest] - INFO -  
+2018-01-14 16:33:40,478 - [in.licious.test.ValidLoginTest] - INFO -  
+2018-01-14 16:33:40,478 - [in.licious.test.ValidLoginTest] - INFO - 5 
+2018-01-14 16:34:21,968 - [in.licious.test.ValidLoginTest] - INFO - chrome is launched 
+2018-01-14 16:34:29,786 - [in.licious.test.ValidLoginTest] - INFO - chrome is closed 
+2018-01-14 16:35:36,517 - [in.licious.test.ValidLoginTest] - INFO - framework is initialised 
+2018-01-14 16:35:36,535 - [in.licious.test.ValidLoginTest] - INFO - chrome 
+2018-01-14 16:35:36,535 - [in.licious.test.ValidLoginTest] - INFO - https://www.licious.in 
+2018-01-14 16:35:36,537 - [in.licious.test.ValidLoginTest] - INFO -  
+2018-01-14 16:35:36,537 - [in.licious.test.ValidLoginTest] - INFO -  
+2018-01-14 16:35:36,538 - [in.licious.test.ValidLoginTest] - INFO - 5 
+2018-01-14 16:35:53,829 - [in.licious.test.ValidLoginTest] - INFO - chrome is launched 
+2018-01-14 16:36:00,822 - [in.licious.test.ValidLoginTest] - INFO - chrome is closed 
+2018-01-14 19:28:47,890 - [in.licious.test.ValidLoginTest] - INFO - framework is initialised 
+2018-01-14 19:28:47,890 - [in.licious.test.ValidLoginTest] - INFO - firefox 
+2018-01-14 19:28:47,890 - [in.licious.test.ValidLoginTest] - INFO - https://www.licious.in 
+2018-01-14 19:28:47,890 - [in.licious.test.ValidLoginTest] - INFO -  
+2018-01-14 19:28:47,890 - [in.licious.test.ValidLoginTest] - INFO -  
+2018-01-14 19:28:47,890 - [in.licious.test.ValidLoginTest] - INFO - 5 
+2018-01-14 19:29:51,377 - [in.licious.test.ValidLoginTest] - INFO - firefox is launched 
+2018-01-14 19:37:44,298 - [in.licious.test.ValidLoginTest] - INFO - framework is initialised 
+2018-01-14 19:37:44,310 - [in.licious.test.ValidLoginTest] - INFO - chrome 
+2018-01-14 19:37:44,310 - [in.licious.test.ValidLoginTest] - INFO - https://web.licious.in 
+2018-01-14 19:37:44,310 - [in.licious.test.ValidLoginTest] - INFO - 9880335493 
+2018-01-14 19:37:44,310 - [in.licious.test.ValidLoginTest] - INFO - 123456 
+2018-01-14 19:37:44,310 - [in.licious.test.ValidLoginTest] - INFO - 5 
+2018-01-14 19:38:29,531 - [in.licious.test.ValidLoginTest] - INFO - chrome is launched 
+2018-01-14 19:38:40,918 - [in.licious.test.ValidLoginTest] - INFO - chrome is closed 

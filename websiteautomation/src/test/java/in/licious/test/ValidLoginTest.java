@@ -1,12 +1,10 @@
 package in.licious.test;
 
 import java.util.List;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
-
 import in.licious.pom.SignInPage;
 import in.licious.util.Helper;
 public class ValidLoginTest extends BaseTest{
