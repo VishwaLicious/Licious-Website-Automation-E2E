@@ -3,16 +3,16 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="in.licious.test.ValidLoginTest">
+      <class name="in.licious.test.Chicken">
         <methods>
           <include name="closeFramework"/>
           <include name="tearDown"/>
           <include name="initFramework"/>
           <include name="setUp"/>
-          <include name="testValidLoginTest"/>
+          <include name="testChicken"/>
           <include name="initGlobalConstants"/>
         </methods>
-      </class> <!-- in.licious.test.ValidLoginTest -->
+      </class> <!-- in.licious.test.Chicken -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,11 +1,13 @@
 package in.licious.test;
 
+import java.lang.reflect.Method;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
+import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeMethod;
@@ -13,21 +15,29 @@ import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Listeners;
 
+import com.relevantcodes.extentreports.ExtentReports;
+import com.relevantcodes.extentreports.ExtentTest;
+import com.relevantcodes.extentreports.LogStatus;
+
 import in.licious.util.CustomListeners;
+import in.licious.util.Helper;
 import in.licious.util.InitProperties;
 import in.licious.util.SetUpDrivers;
 
 @Listeners(CustomListeners.class)
-public abstract class BaseTest {
+public abstract class BaseTest implements  AutomationConstant {
 
 	public WebDriver driver;
 	public static Properties properties;
-	private String browserName;
-	private String url;
+	private static String browserName;
+	private static String url;
 	public  String userName;
 	public  String passWord;
 	public static int implicitWait;
-	public  Logger log;
+	public static ExtentReports ereport;
+	public static ExtentTest etest;
+	public  static Logger log;
+	
 	public BaseTest(){
 		log=Logger.getLogger(this.getClass());
 		Logger.getRootLogger().setLevel(Level.INFO);
@@ -36,6 +46,7 @@ public abstract class BaseTest {
 	@BeforeSuite
 	public void initFramework(){
 		properties=InitProperties.initPropertis("config");
+		ereport=new ExtentReports(EXTENT_REPORT_PATH);
 		log.info("framework is initialised");
 	}
 	@BeforeTest
@@ -52,7 +63,8 @@ public abstract class BaseTest {
 		log.info(implicitWait);
 	}
 	@BeforeMethod
-	public void setUp(){
+	public void setUp(Method m){
+		etest=ereport.startTest(m.getName());
 		SetUpDrivers setupDriver=new SetUpDrivers();
 		if(browserName.equalsIgnoreCase("firefox")){
 			driver=setupDriver.launchFirefoxDriver(url);
@@ -64,17 +76,26 @@ public abstract class BaseTest {
 			driver=setupDriver.launchChromeDriver(url);
 		}
 		log.info(browserName+" is launched");
+		etest.log(LogStatus.PASS,browserName +" is launched");
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().implicitlyWait(implicitWait, TimeUnit.SECONDS);
 	}
 	@AfterMethod
-	public void tearDown(){
+	public void tearDown(ITestResult result){
 		driver.close();
 		log.info(browserName+" is closed");
+		if(result.getStatus()==ITestResult.SUCCESS){
+			etest.log(LogStatus.PASS,"pass");
+		}
+		else{
+			etest.log(LogStatus.FAIL, "failed");
+			etest.log(LogStatus.FAIL,etest.addScreenCapture(Helper.SCREEN_SHOT_PATH));
+		}
+		ereport.endTest(etest);
 	}
 	@AfterSuite
 	public void closeFramework(){
-		
+		ereport.flush();
 	}
 }

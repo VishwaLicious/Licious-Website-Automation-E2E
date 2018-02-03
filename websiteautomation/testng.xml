@@ -4,7 +4,7 @@
   <test  name="Test">
     <classes>
       <class name="in.licious.test.ValidLoginTest"/>
-
+	<class name="in.licious.test.InvalidLogin"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

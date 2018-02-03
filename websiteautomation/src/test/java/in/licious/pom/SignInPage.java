@@ -12,16 +12,21 @@ public class SignInPage extends BasePage{
 	private WebElement passwordTxtBox;
 	@FindBy(xpath="//button[.='Login']")
 	private WebElement loginBtn;
+	
 	public SignInPage(WebDriver driver){
 		super(driver);
 		PageFactory.initElements(driver, this);
 	}
+	
 	public WebElement getUsernameTxtBox(){
 		return usernameTxtBox;
 	}
+	
+	
 	public WebElement getPasswordTxtBox(){
 		return passwordTxtBox;
 	}
+	
 	public WebElement getLoginBtn(){
 		return loginBtn;
 	}

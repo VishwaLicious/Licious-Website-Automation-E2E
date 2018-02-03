@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="in.licious.test.ValidLoginTest">
+        <methods>
+          <include name="closeFramework"/>
+          <include name="tearDown"/>
+          <include name="testValidLoginTest1"/>
+          <include name="initFramework"/>
+          <include name="setUp"/>
+          <include name="initGlobalConstants"/>
+        </methods>
+      </class> <!-- in.licious.test.ValidLoginTest -->
+      <class name="in.licious.test.InvalidLogin">
+        <methods>
+          <include name="closeFramework"/>
+          <include name="tearDown"/>
+          <include name="initFramework"/>
+          <include name="setUp"/>
+          <include name="testInvalidLogin"/>
+          <include name="initGlobalConstants"/>
+        </methods>
+      </class> <!-- in.licious.test.InvalidLogin -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

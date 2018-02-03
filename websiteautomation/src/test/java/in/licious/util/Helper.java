@@ -26,6 +26,7 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class Helper {
+	public static String SCREEN_SHOT_PATH;
 	public static String dateAndTimeStamp(){
 		SimpleDateFormat sdf=new SimpleDateFormat("dd-MMM-yy-HH-mm-ss");
 		 return sdf.format(new Date());
@@ -74,8 +75,9 @@ public class Helper {
 		 try {
 			Robot robot=new Robot();
 			BufferedImage image = robot.createScreenCapture(new Rectangle(Toolkit.getDefaultToolkit().getScreenSize()));
+			SCREEN_SHOT_PATH=System.getProperty("user.dir")+"/ScreenShots/"+sname+"-"+dateAndTimeStamp()+".png";
 			try {
-				ImageIO.write(image, "png", new File(System.getProperty("user.dir")+"/ScreenShots/"+sname+"-"+dateAndTimeStamp()+".png"));
+				ImageIO.write(image, "png", new File(SCREEN_SHOT_PATH));
 			} catch (IOException e) {
 				e.printStackTrace();
 			}

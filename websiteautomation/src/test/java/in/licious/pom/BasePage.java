@@ -18,6 +18,9 @@ public abstract class BasePage {
 	@FindBy(id="location_pop")
 	private WebElement loactionTxtBox;
 	
+	@FindBy(xpath="//span[.='Cart']")
+	private WebElement cart;
+	
 	
 	public BasePage(WebDriver driver){
 		PageFactory.initElements(driver, this);
@@ -34,5 +37,9 @@ public abstract class BasePage {
 	}
 	public WebElement getLoactionTxtBox(){
 		return loactionTxtBox;
+	}
+	
+	public WebElement getCart(){
+		return cart;
 	}
 }

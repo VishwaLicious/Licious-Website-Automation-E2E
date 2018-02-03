@@ -4,19 +4,30 @@ import java.util.List;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
+import org.testng.Assert;
 import org.testng.annotations.Test;
+
+import com.relevantcodes.extentreports.LogStatus;
+
 import in.licious.pom.SignInPage;
 import in.licious.util.Helper;
 public class ValidLoginTest extends BaseTest{
 
 	@Test
-	public void testValidLoginTest() throws InterruptedException{
+	public void testValidLoginTest1() throws InterruptedException{
 		SignInPage signInpage=new SignInPage(driver);
-		signInpage.getSelectLocation().click();
-		signInpage.getbengaluruDeliveryLocation().click();
-		signInpage.getLoactionTxtBox().sendKeys("Marathahalli");
+		Helper  helper=new Helper();
+		helper.clickOnElement(driver, signInpage.getSelectLocation());
+		//signInpage.getSelectLocation().click();
+		//Assert.fail();
+		helper.clickOnElement(driver, signInpage.getbengaluruDeliveryLocation());
+		//signInpage.getbengaluruDeliveryLocation().click();
+		helper.enterText(driver, signInpage.getLoactionTxtBox(), "Marathahalli");
+		//signInpage.getLoactionTxtBox().sendKeys("Marathahalli");
 		Helper.customWait(2);
 		signInpage.getLoactionTxtBox().sendKeys(Keys.ARROW_DOWN,Keys.ENTER);
+		etest.log(LogStatus.PASS,"Location is selected");
+	
 //		List<WebElement> ele = driver.findElements(By.xpath("/html/body/div[1]/header/div/div[2]/div/div[2]/div[2]/div/div[2]/div[2]/div[3]/div[1]/span"));
 //		System.out.println(ele.size());
 //		Helper helper=new Helper();
