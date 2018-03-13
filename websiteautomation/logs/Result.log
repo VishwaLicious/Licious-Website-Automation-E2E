@@ -1063,3 +1063,13 @@
 2018-03-13 21:56:55,058 - [in.licious.test.InvalidLogin] - INFO - chrome is closed 
 2018-03-13 21:57:33,067 - [in.licious.test.InvalidLogin] - INFO - chrome is launched 
 2018-03-13 21:57:38,547 - [in.licious.test.InvalidLogin] - INFO - chrome is closed 
+2018-03-14 01:30:55,851 - [in.licious.test.InvalidLogin] - INFO - framework is initialised 
+2018-03-14 01:30:55,865 - [in.licious.test.InvalidLogin] - INFO - chrome 
+2018-03-14 01:30:55,866 - [in.licious.test.InvalidLogin] - INFO - http://web.licious.info 
+2018-03-14 01:30:55,867 - [in.licious.test.InvalidLogin] - INFO - 9880335493 
+2018-03-14 01:30:55,867 - [in.licious.test.InvalidLogin] - INFO - 123456 
+2018-03-14 01:30:55,867 - [in.licious.test.InvalidLogin] - INFO - 5 
+2018-03-14 01:31:12,369 - [in.licious.test.InvalidLogin] - INFO - chrome is launched 
+2018-03-14 01:31:18,950 - [in.licious.test.InvalidLogin] - INFO - chrome is closed 
+2018-03-14 01:31:30,253 - [in.licious.test.InvalidLogin] - INFO - chrome is launched 
+2018-03-14 01:31:36,144 - [in.licious.test.InvalidLogin] - INFO - chrome is closed 
