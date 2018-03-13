@@ -78,7 +78,7 @@ public abstract class BaseTest implements  AutomationConstant {
 		log.info(browserName+" is launched");
 		etest.log(LogStatus.PASS,browserName +" is launched");
 		driver.manage().window().maximize();
-		driver.manage().deleteAllCookies();
+		//driver.manage().deleteAllCookies();
 		driver.manage().timeouts().implicitlyWait(implicitWait, TimeUnit.SECONDS);
 	}
 	@AfterMethod

@@ -6,6 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class SignInPage extends BasePage{
+	
 	@FindBy(name="login")
 	private WebElement usernameTxtBox;
 	@FindBy(name="password")
