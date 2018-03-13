@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="26361" started-at="2018-03-11T12:05:13Z" finished-at="2018-03-11T12:05:40Z">
+  <suite name="Default suite" duration-ms="27441" started-at="2018-03-13T21:26:58Z" finished-at="2018-03-13T21:27:26Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="26361" started-at="2018-03-11T12:05:13Z" finished-at="2018-03-11T12:05:40Z">
+    <test name="Default test" duration-ms="27441" started-at="2018-03-13T21:26:58Z" finished-at="2018-03-13T21:27:26Z">
       <class name="in.licious.test.Chicken">
-        <test-method status="PASS" signature="initFramework()[pri:0, instance:in.licious.test.Chicken@20398b7c]" name="initFramework" is-config="true" duration-ms="234" started-at="2018-03-11T17:35:13Z" finished-at="2018-03-11T17:35:13Z">
+        <test-method status="PASS" signature="initFramework()[pri:0, instance:in.licious.test.Chicken@20398b7c]" name="initFramework" is-config="true" duration-ms="128" started-at="2018-03-14T02:56:58Z" finished-at="2018-03-14T02:56:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initFramework -->
-        <test-method status="PASS" signature="initGlobalConstants()[pri:0, instance:in.licious.test.Chicken@20398b7c]" name="initGlobalConstants" is-config="true" duration-ms="0" started-at="2018-03-11T17:35:13Z" finished-at="2018-03-11T17:35:13Z">
+        <test-method status="PASS" signature="initGlobalConstants()[pri:0, instance:in.licious.test.Chicken@20398b7c]" name="initGlobalConstants" is-config="true" duration-ms="2" started-at="2018-03-14T02:56:58Z" finished-at="2018-03-14T02:56:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initGlobalConstants -->
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:in.licious.test.Chicken@20398b7c]" name="setUp" is-config="true" duration-ms="10740" started-at="2018-03-11T17:35:13Z" finished-at="2018-03-11T17:35:24Z">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:in.licious.test.Chicken@20398b7c]" name="setUp" is-config="true" duration-ms="12924" started-at="2018-03-14T02:56:58Z" finished-at="2018-03-14T02:57:11Z">
           <params>
             <param index="0">
               <value>
@@ -26,7 +26,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="testChicken()[pri:0, instance:in.licious.test.Chicken@20398b7c]" name="testChicken" duration-ms="11734" started-at="2018-03-11T17:35:24Z" finished-at="2018-03-11T17:35:36Z">
+        <test-method status="FAIL" signature="testChicken()[pri:0, instance:in.licious.test.Chicken@20398b7c]" name="testChicken" duration-ms="11744" started-at="2018-03-14T02:57:11Z" finished-at="2018-03-14T02:57:23Z">
           <exception class="org.openqa.selenium.ElementNotVisibleException">
             <message>
               <![CDATA[element not visible
@@ -37,7 +37,7 @@ Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54
 System info: host: 'PF0Q7VST-BLR', ip: '192.168.43.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.33.506120 (e3e53437346286..., userDataDir: C:\Users\VISHWA\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 64.0.3282.186, webStorageEnabled: true}
-Session ID: 0770466e6ae03405e99883dc51a50480]]>
+Session ID: efd056fce6b8a4076d2fc1d12415dd7c]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.ElementNotVisibleException: element not visible
@@ -48,7 +48,7 @@ Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54
 System info: host: 'PF0Q7VST-BLR', ip: '192.168.43.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.33.506120 (e3e53437346286..., userDataDir: C:\Users\VISHWA\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 64.0.3282.186, webStorageEnabled: true}
-Session ID: 0770466e6ae03405e99883dc51a50480
+Session ID: efd056fce6b8a4076d2fc1d12415dd7c
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -101,7 +101,7 @@ Session ID: 0770466e6ae03405e99883dc51a50480
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testChicken -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:in.licious.test.Chicken@20398b7c]" name="tearDown" is-config="true" duration-ms="2397" started-at="2018-03-11T17:35:37Z" finished-at="2018-03-11T17:35:40Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:in.licious.test.Chicken@20398b7c]" name="tearDown" is-config="true" duration-ms="2114" started-at="2018-03-14T02:57:24Z" finished-at="2018-03-14T02:57:26Z">
           <params>
             <param index="0">
               <value>
@@ -112,7 +112,7 @@ Session ID: 0770466e6ae03405e99883dc51a50480
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="closeFramework()[pri:0, instance:in.licious.test.Chicken@20398b7c]" name="closeFramework" is-config="true" duration-ms="295" started-at="2018-03-11T17:35:40Z" finished-at="2018-03-11T17:35:40Z">
+        <test-method status="PASS" signature="closeFramework()[pri:0, instance:in.licious.test.Chicken@20398b7c]" name="closeFramework" is-config="true" duration-ms="229" started-at="2018-03-14T02:57:26Z" finished-at="2018-03-14T02:57:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeFramework -->

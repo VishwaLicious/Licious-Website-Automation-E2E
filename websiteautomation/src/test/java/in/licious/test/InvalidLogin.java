@@ -21,7 +21,7 @@ public class InvalidLogin extends BaseTest{
 		signInpage.getLoactionTxtBox().sendKeys("Marathahalli");
 		Helper.customWait(2);
 		signInpage.getLoactionTxtBox().sendKeys(Keys.ARROW_DOWN,Keys.ENTER);
-		//Assert.fail();
+		Assert.fail();
 	//	etest.log(LogStatus.,"Location is selected");
 //		List<WebElement> ele = driver.findElements(By.xpath("/html/body/div[1]/header/div/div[2]/div/div[2]/div[2]/div/div[2]/div[2]/div[3]/div[1]/span"));
 //		System.out.println(ele.size());
