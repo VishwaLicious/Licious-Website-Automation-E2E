@@ -20,7 +20,7 @@ public abstract class BasePage {
 	
 	@FindBy(xpath="//span[.='Cart']")
 	private WebElement cart;
-	
+	//span[@class='location-name']
 	
 	public BasePage(WebDriver driver){
 		PageFactory.initElements(driver, this);

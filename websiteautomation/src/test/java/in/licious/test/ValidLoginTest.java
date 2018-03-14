@@ -18,7 +18,15 @@ public class ValidLoginTest extends BaseTest{
 		SignInPage signInpage=new SignInPage(driver);
 		Helper  helper=new Helper();
 		helper.clickOnElement(driver, signInpage.getSelectLocation());
-		//signInpage.getSelectLocation().click();
+		
+		Helper.customWait(3);
+		
+		
+		
+		System.out.println("Pass 1");
+		
+		
+		signInpage.getSelectLocation().click();
 		//Assert.fail();
 		helper.clickOnElement(driver, signInpage.getbengaluruDeliveryLocation());
 		//signInpage.getbengaluruDeliveryLocation().click();
