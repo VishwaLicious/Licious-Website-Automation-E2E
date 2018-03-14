@@ -11,9 +11,9 @@ public class SignInPage extends BasePage{
 	private WebElement usernameTxtBox;
 	@FindBy(name="password")
 	private WebElement passwordTxtBox;
-	//@FindBy(xpath="//button[.='Login']")
-	
-	@FindBy(xpath="/html/body/div[1]/header/div/div[1]/div/div[2]/ul/li[4]/a")
+	@FindBy(xpath="//button[.='Login']")
+	//Absolute Xpath
+	//@FindBy(xpath="/html/body/div[1]/header/div/div[1]/div/div[2]/ul/li[4]/a")
 	private WebElement loginBtn;
 	
 	public SignInPage(WebDriver driver){

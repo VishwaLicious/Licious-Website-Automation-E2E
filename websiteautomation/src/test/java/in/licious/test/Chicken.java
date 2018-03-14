@@ -40,7 +40,7 @@ public class Chicken extends BaseTest {
 		System.out.println("Pass3");
 		
 		
-		signin.getLoginBtn().click();
+		signin.getLogin().click();
 		System.out.println("Pass13");
 		
 		signin.getUsernameTxtBox().sendKeys("9880335493");
