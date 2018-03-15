@@ -1360,3 +1360,17 @@
 2018-03-14 16:48:04,584 - [in.licious.test.Chicken] - INFO - 5 
 2018-03-14 16:48:14,779 - [in.licious.test.Chicken] - INFO - chrome is launched 
 2018-03-14 16:48:34,830 - [in.licious.test.Chicken] - INFO - chrome is closed 
+2018-03-14 17:51:31,778 - [in.licious.test.ValidLoginTest] - INFO - framework is initialised 
+2018-03-14 17:51:31,784 - [in.licious.test.ValidLoginTest] - INFO - ie 
+2018-03-14 17:51:31,784 - [in.licious.test.ValidLoginTest] - INFO - http://web.licious.info 
+2018-03-14 17:51:31,784 - [in.licious.test.ValidLoginTest] - INFO - 9880335493 
+2018-03-14 17:51:31,785 - [in.licious.test.ValidLoginTest] - INFO - 123456 
+2018-03-14 17:51:31,785 - [in.licious.test.ValidLoginTest] - INFO - 5 
+2018-03-14 17:54:34,769 - [in.licious.test.ValidLoginTest] - INFO - framework is initialised 
+2018-03-14 17:54:34,774 - [in.licious.test.ValidLoginTest] - INFO - chrome 
+2018-03-14 17:54:34,774 - [in.licious.test.ValidLoginTest] - INFO - http://web.licious.info 
+2018-03-14 17:54:34,775 - [in.licious.test.ValidLoginTest] - INFO - 9880335493 
+2018-03-14 17:54:34,775 - [in.licious.test.ValidLoginTest] - INFO - 123456 
+2018-03-14 17:54:34,775 - [in.licious.test.ValidLoginTest] - INFO - 5 
+2018-03-14 17:54:46,957 - [in.licious.test.ValidLoginTest] - INFO - chrome is launched 
+2018-03-14 17:54:56,507 - [in.licious.test.ValidLoginTest] - INFO - chrome is closed 

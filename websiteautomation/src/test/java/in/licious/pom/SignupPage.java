@@ -14,9 +14,13 @@ public class SignupPage {
 	private WebElement mobileNo;
 	@FindBy(name="password")
 	private WebElement password;
-	
 	@FindBy(xpath="//button[.='Signup']")
 	private WebElement signUpBtn;
+	//@FindBy(xpath="//span[@data-value='login']")
+	
+	@FindBy(xpath="/html/body/div[2]/div/div[1]/div[3]/div/div[7]/h6/span[1]")
+	private WebElement AlreadyHaveAnAccountlogin;
+	
 	
 	public SignupPage(WebDriver driver){
 		PageFactory.initElements(driver, this);
@@ -38,4 +42,8 @@ public class SignupPage {
 	public WebElement getSignUpBtn(){
 		return signUpBtn;
 	}
+	public WebElement getAlreadyHaveAnAccountlogin() {
+		return AlreadyHaveAnAccountlogin;
+	}
+		
 }

@@ -15,8 +15,11 @@ public class ValidLoginTest extends BaseTest{
 
 	@Test
 	public void testValidLoginTest1() throws InterruptedException{
+		
 		SignInPage signInpage=new SignInPage(driver);
+		
 		Helper  helper=new Helper();
+		
 		helper.clickOnElement(driver, signInpage.getSelectLocation());
 		
 		Helper.customWait(3);
@@ -27,12 +30,18 @@ public class ValidLoginTest extends BaseTest{
 		
 		
 		signInpage.getSelectLocation().click();
+		
+		
 		//Assert.fail();
+		
 		helper.clickOnElement(driver, signInpage.getbengaluruDeliveryLocation());
+		
 		//signInpage.getbengaluruDeliveryLocation().click();
 		helper.enterText(driver, signInpage.getLoactionTxtBox(), "Marathahalli");
+		
 		//signInpage.getLoactionTxtBox().sendKeys("Marathahalli");
 		Helper.customWait(2);
+		
 		signInpage.getLoactionTxtBox().sendKeys(Keys.ARROW_DOWN,Keys.ENTER);
 		etest.log(LogStatus.PASS,"Location is selected");
 	
