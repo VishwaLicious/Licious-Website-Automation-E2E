@@ -96,7 +96,7 @@ public class Chicken extends BaseTest {
 //		home.getChickenCat().click();
 //	
 //		
-//		
+//		/Select Chicken category
 //		ChickenPage cp=new ChickenPage(driver);
 //		cp.getChickenBreastBoneless().click();
 //		cp.getCart().click();
