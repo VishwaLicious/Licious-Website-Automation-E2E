@@ -62,7 +62,7 @@ public class Chicken extends BaseTest {
 		System.out.println("Pass7");
 		Helper.customWait(4);
 		
-		signInpage.getSubscribe().click();
+		//signInpage.getSubscribe().click();
 		Helper.customWait(2);
 		signInpage.getLoginBtn().click();
 		System.out.println("Pass8");

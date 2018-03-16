@@ -34,11 +34,11 @@ public class SignInPage extends BasePage{
 		return loginBtn;
 	}
 	
-	@FindBy(xpath="/html/body/footer/div[1]/div[1]/div/div[1]")
-	private WebElement subscribe;
-	
-	public WebElement getSubscribe()
-	{
-		return subscribe;
-	}
+//	@FindBy(xpath="/html/body/footer/div[1]/div[1]/div/div[1]")
+//	private WebElement subscribe;
+//	
+//	public WebElement getSubscribe()
+//	{
+//		return subscribe;
+//	}
 }
